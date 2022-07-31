@@ -13,9 +13,9 @@ song_title = [title.text.strip() for title in title_tag]
 # print(song_title)
 
 # Create a Spotify API Client
-SPOTIPY_CLIENT_ID = 'ada31cc0492947c3baee57d24a93bc1a'
-SPOTIPY_CLIENT_SECRET = 'a7ae66e7cebe4ac5b1b707ecc302a716'
-SPOTIPY_REDIRECT_URI = 'https://top-100-billboards/redirect'
+SPOTIPY_CLIENT_ID = 'YOUR CLIeNT ID'
+SPOTIPY_CLIENT_SECRET = 'YOUR CLIENT SECRET'
+SPOTIPY_REDIRECT_URI = 'YOUR REDIRECT URL'
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
         client_id=SPOTIPY_CLIENT_ID,
